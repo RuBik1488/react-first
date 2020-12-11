@@ -1,0 +1,12 @@
+.sidebar {
+    grid-area: sidebar;
+    background-color: #aed4f0;
+    padding: 10px;
+}
+.sidebar nav li a {
+    padding: 10px;
+    display: block;
+}
+.sidebar nav li a.active, .sidebar nav li a:hover {
+    color: #f90e22;
+}
